@@ -5,7 +5,7 @@ using UnityEngine;
 public class Move : MonoBehaviour {
 
 	public MovingCamera ctnv; // For accessing a variable from the cameratestnotvr script
-	public float speed = 3.0f;   // The speed the player moves at
+	public float speed = 30.0f;   // The speed the player moves at
 
 	void Start() {
 
