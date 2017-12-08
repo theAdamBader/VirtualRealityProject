@@ -26,9 +26,9 @@ public class Timer : MonoBehaviour {
         string sec = (timeLimit % 60).ToString("00");
         timerText.text = min + ":" + sec;
 
-        if (timeLimit == 0.0f)//Out of time
+        if (timeLimit <= 0.0f)//Out of time
         {
-
+            timerText.text = "00" + ":" + "00";
             //Change GameState here?
         }
         else

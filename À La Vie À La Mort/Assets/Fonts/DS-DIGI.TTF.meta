@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: bab511ee65e25fb439a6c734e8069f1f
-timeCreated: 1512657483
+guid: 2ffec1d628250394786dd4d8e9590705
+timeCreated: 1512745947
 licenseType: Free
 TrueTypeFontImporter:
   externalObjects: {}
@@ -10,10 +10,11 @@ TrueTypeFontImporter:
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
-  fontName: DK Face Your Fears II
+  fontName: DS-Digital
   fontNames:
-  - DK Face Your Fears II
-  fallbackFontReferences: []
+  - DS-Digital
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 1dd5d86597aab084b924ff28a1f15587, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1

@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 4b698bfa950f18d49bad31ccd2b3ff22
-timeCreated: 1512657585
+guid: e44a3fef4f932f04692977a28feb5c08
+timeCreated: 1512745948
 licenseType: Free
 TrueTypeFontImporter:
   externalObjects: {}
@@ -10,10 +10,13 @@ TrueTypeFontImporter:
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
-  fontName: Ruach LET
+  fontName: DS-Digital
   fontNames:
-  - Ruach LET
-  fallbackFontReferences: []
+  - DS-Digital
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 1dd5d86597aab084b924ff28a1f15587, type: 3}
+  - {fileID: 12800000, guid: 2ffec1d628250394786dd4d8e9590705, type: 3}
+  - {fileID: 12800000, guid: 4797142b157884b42b1419df405a29a7, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1
