@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
 //With reference to https://www.youtube.com/watch?v=D-6BbUozuCY and https://answers.unity.com/questions/1174761/20-minute-countdown-timer.html
 
@@ -38,12 +37,7 @@ public class Timer : MonoBehaviour
         if (timeLimit <= 0.0f)//Out of time
         {
             timerText.text = "00" + ":" + "00";
-            //Change GameState here?
-            if (gameOver == false)
-            {
-                SceneManager.LoadScene("level1", LoadSceneMode.Single);
-                gameOver = true;
-            }
+            gameOver = true;
         }
         else
         {
